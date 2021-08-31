@@ -49,6 +49,10 @@
     float: left;
     padding-left: 50px;
     position: sticky;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(3rem);
+    scroll-snap-type: y mandatory;
+   
     
 }
 
@@ -285,6 +289,7 @@
 #secondpage{
     max-width: 1366px;
     height: 657px;
+    scroll-snap-align: start;
 }
 
 
@@ -301,4 +306,14 @@
     height: 657px;
     background: url(../images/model_3_safety_hero.png);
     
+}
+
+.safety1{
+    height: 70%;
+    
+}
+.safety2{
+    height: 30%;
+    
+
 }
